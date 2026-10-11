@@ -17,6 +17,9 @@ spec:
         app: userinfo
 
     spec:
+      nodeSelector:
+        disktype: ssd
+
       containers:
       - name: userinfo
 
