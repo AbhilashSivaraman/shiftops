@@ -16,13 +16,6 @@ spec:
       labels:
         app: userinfo
 
-    spec:
-      tolerations:
-        - key: "dedicated"
-          operator: "Equal"
-          value: "special"
-          effect: "NoSchedule"
-
       containers:
       - name: userinfo
 
