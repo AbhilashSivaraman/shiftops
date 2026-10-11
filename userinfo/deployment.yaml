@@ -17,9 +17,6 @@ spec:
         app: userinfo
 
     spec:
-      nodeSelector:
-        disktype: gp3
-
       containers:
       - name: userinfo
 
