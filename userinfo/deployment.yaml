@@ -17,8 +17,11 @@ spec:
         app: userinfo
 
     spec:
-      nodeSelector:
-        disktype: gp3
+      tolerations:
+        - key: "dedicated"
+          operator: "Equal"
+          value: "special"
+          effect: "NoSchedule"
 
       containers:
       - name: userinfo
