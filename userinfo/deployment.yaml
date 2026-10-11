@@ -77,7 +77,7 @@ spec:
         - name: SPRING_DATASOURCE_PASSWORD
           valueFrom:
             secretKeyRef:
-              name: userinfo-secrett
+              name: userinfo-secret
               key: SPRING_DATASOURCE_PASSWORD
 
         resources:
