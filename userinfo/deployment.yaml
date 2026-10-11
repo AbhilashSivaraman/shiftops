@@ -18,7 +18,7 @@ spec:
 
     spec:
       nodeSelector:
-        disktype: ssd
+        disktype: gp3
 
       containers:
       - name: userinfo
