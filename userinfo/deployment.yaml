@@ -16,6 +16,7 @@ spec:
       labels:
         app: userinfo
 
+    spec:
       containers:
       - name: userinfo
 
@@ -81,7 +82,7 @@ spec:
 
         resources:
           requests:
-            memory: "525Mi"
+            memory: "512Mi"
             cpu: "250m"
 
           limits:
